@@ -14,6 +14,6 @@ task: https://roadmap.sh/projects/simple-monitoring-dashboard
 
 3. Add new custom alert
 
-a) Create new configuration file - ``` sudo ../edit-config cpu_usage.conf ```
+a) Create new configuration file in "/etc/netdata/health.d" - ``` sudo ../edit-config cpu_usage.conf ```
 
 b) Update active alerts - ``` netdatacli reload-health ```
